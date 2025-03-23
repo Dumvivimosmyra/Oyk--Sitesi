@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Öykü Sitesi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hoş Geldin!</h1>
+    <label for="username">İsmin nedir?</label>
+    <input type="text" id="username" placeholder="İsmini gir..." />
+    <button onclick="saveName()">Devam Et</button>
+
+    <div class="buttons">
+      <button onclick="goToPage('music.html')">Müzik ve Notlar</button>
+      <button onclick="goToPage('birthday.html')">Doğum Günü Kutlaması</button>
+    </div>
+
+    <button class="theme-toggle" onclick="toggleTheme()">🌞/🌙</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
