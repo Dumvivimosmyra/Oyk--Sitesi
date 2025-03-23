@@ -1,1 +1,69 @@
+/* Temel Sayfa Stilleri */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navbar Stilleri */
+nav {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Karanlık Mod */
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+nav button {
+  background-color: #03dac6;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+nav button:hover {
+  background-color: #018786;
+}
+
+/* Sayfa İçeriği */
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #6200ea;
+}
+
+/* Karanlık mod için başlık rengi */
+body.dark-mode h1 {
+  color: #bb86fc;
+}
 
