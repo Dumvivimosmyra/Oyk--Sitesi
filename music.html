@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müzik ve Notlar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <div class="navbar">
+        <button onclick="window.location.href='index.html'">Ana Sayfa</button>
+        <button onclick="window.location.href='birthday.html'">Doğum Günü</button>
+    </div>
+
+    <h1>Müzik Dinleyin!</h1>
+    <div id="searchBox">
+        <input type="text" id="search" placeholder="Müzik Arayın" />
+        <button onclick="searchMusic()">Ara</button>
+    </div>
+    <div id="musicList"></div>
+    <h2>Notlar</h2>
+    <textarea id="notes" placeholder="Notlarınızı buraya yazın..." rows="10"></textarea>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
 
