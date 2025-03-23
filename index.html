@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Öykü Sitesi</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oykü'nin Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="container">
-    <h1>Merhaba! Öykü Sitesine Hoşgeldin</h1>
-    <label for="name">Adını Gir:</label>
-    <input type="text" id="name" placeholder="Adın..." />
-    <button onclick="saveName()">Devam Et</button>
-
-    <div class="button-container">
-      <button onclick="goToPage('music.html')">🎵 Müzik ve Notlar</button>
-      <button onclick="goToPage('birthday.html')">🎂 Doğum Günü</button>
-      <button onclick="goToPage('fun.html')">✨ Eğlence</button>
+<body class="light-mode">
+    <div class="navbar">
+        <button onclick="window.location.href='music.html'">Müzik ve Notlar</button>
+        <button onclick="window.location.href='birthday.html'">Doğum Günü</button>
     </div>
 
-    <button class="theme-toggle" onclick="toggleTheme()">🌞/🌙</button>
-  </div>
+    <h1>Hoş geldiniz!</h1>
+    <button onclick="toggleMode()">Aydınlık/Karanlık Mod</button>
 
-  <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
 
